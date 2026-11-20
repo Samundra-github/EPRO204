@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPRO204 Professional Digital Portfolio | Early Childhood Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Primary Portfolio Navigation">
+      <a href="#home" class="brand" onclick="showPage('home'); return false;">
+        <div class="brand-mark">EC</div>
+        <div class="brand-text">
+          <strong>Early Childhood Digital Portfolio</strong>
+          <span>EPRO204 Assessment 3</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><button type="button" class="nav-btn active" id="nav-home" onclick="showPage('home')">Home</button></li>
+        <li><button type="button" class="nav-btn" id="nav-context-1" onclick="showPage('context-1')">Context 1: Cultural &amp; Diversity</button></li>
+        <li><button type="button" class="nav-btn" id="nav-context-2" onclick="showPage('context-2')">Context 2: Crisis &amp; Emergency</button></li>
+        <li><button type="button" class="nav-btn" id="nav-library" onclick="showPage('library')">Educator Resource Library</button></li>
+        <li><button type="button" class="nav-btn" id="nav-references" onclick="showPage('references')">References &amp; Acknowledgements</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- ==========================================
+         PAGE 1: HOME
+         ========================================== -->
+    <section id="page-home" class="page-view active">
+      <div class="hero">
+        <div>
+          <span class="badge">EPRO204 Assessment 3 • Digital Portfolio</span>
+          <h1>Working with Children, Families, and Communities in Contemporary Society</h1>
+          <p>
+            This professional digital portfolio supports Australian early childhood educators working with children aged birth to five years. Grounded in sociological theory, contemporary research, and national and South Australian policy frameworks, it examines evidence-based practice across two essential contexts: supporting immigrant and refugee families, and supporting children and families affected by natural disasters and climate-related emergencies.
+          </p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary" onclick="showPage('context-1')">Context 1: Cultural &amp; Diversity</button>
+            <button type="button" class="btn btn-terracotta" onclick="showPage('context-2')">Context 2: Crisis &amp; Emergency</button>
+            <button type="button" class="btn btn-outline" onclick="showPage('library')">Educator Resource Library</button>
+          </div>
+        </div>
+        <div>
+          <img src="images/hero-ece.svg" alt="Editorial illustration of an Australian early childhood educator reading with diverse young children." class="hero-img" />
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <!-- Context 1 Card -->
+        <article class="card">
+          <span class="badge">Context 1 • Cultural &amp; Diversity</span>
+          <h3>Supporting Immigrant and Refugee Families in Australian Early Childhood Education</h3>
+          <p>
+            Examines cultural and linguistic diversity in Australian communities, pre-migration and settlement challenges, multilingual development, trauma-informed culturally responsive practice, and family partnerships through Bronfenbrenner’s Ecological Systems Theory, Bourdieu’s Cultural Capital Theory, and Social Constructionism.
+          </p>
+          <p>
+            <strong>Includes:</strong> Sections A–F, ABS &amp; AEDC statistics, National &amp; South Australian policies, 2 teaching strategies, 2 SA partner agencies (AMRC &amp; STTARS), and 6 verified birth–5 resources.
+          </p>
+          <button type="button" class="btn btn-primary" onclick="showPage('context-1')">Open Context 1</button>
+        </article>
+
+        <!-- Context 2 Card -->
+        <article class="card">
+          <span class="badge terracotta">Context 2 • Crisis &amp; Emergency</span>
+          <h3>Supporting Children and Families Affected by Natural Disasters and Climate-Related Emergencies</h3>
+          <p>
+            Explores the impacts of bushfires, floods, and extreme weather on young children’s wellbeing, family housing stability, and early childhood service provision through Bronfenbrenner’s Ecological Systems Theory, Social Capital Theory (Bonding, Bridging, Linking), and Socio-Ecological Resilience Theory.
+          </p>
+          <p>
+            <strong>Includes:</strong> Sections A–F, national and SA flood/bushfire statistics, Regulation 97 &amp; SA bushfire policies, 2 trauma-informed strategies, 2 partner agencies (Emerging Minds &amp; Red Cross), and 6 verified birth–5 resources.
+          </p>
+          <button type="button" class="btn btn-terracotta" onclick="showPage('context-2')">Open Context 2</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PAGE 2: CONTEXT 1 – CULTURAL AND DIVERSITY
+         ========================================== -->
+    <section id="page-context-1" class="page-view">
+      <div class="context-header">
+        <span class="badge">Context 1 • Cultural and Diversity</span>
+        <h1>Supporting Immigrant and Refugee Families in Australian Early Childhood Education</h1>
+        <p>Culturally responsive pedagogy, multilingual inclusion, and trauma-informed settlement partnerships for children aged birth to five years.</p>
+
+        <div class="grid-3" style="margin-top: 1.25rem;">
+          <div class="stat-box">
+            <span class="stat-value">27.6% / 22.2%</span>
+            <span class="stat-label">Overseas-Born &amp; LOTE at Home</span>
+            <p style="font-size: 0.82rem;">27.6% of Australians (7.04M) were born overseas and 22.2% (5.66M) speak a language other than English at home (<a href="https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census/latest-release" target="_blank" rel="noopener">ABS, 2022</a>).</p>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value">26.8%</span>
+            <span class="stat-label">Children with LBOTE Background</span>
+            <p style="font-size: 0.82rem;">81,885 Australian children (26.8%) enter full-time school with a Language Background Other Than English (<a href="https://www.aedc.gov.au/resources/detail/2021-aedc-national-report" target="_blank" rel="noopener">DESE, 2022</a>).</p>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value">20,000 Visas</span>
+            <span class="stat-label">2023–24 Humanitarian Intake</span>
+            <p style="font-size: 0.82rem;">Australia granted 20,000 humanitarian visas in 2023–24, including 2,159 Woman at Risk visas for vulnerable mothers and children (<a href="https://www.homeaffairs.gov.au/research-and-statistics/statistics/visa-statistics/live/humanitarian-program" target="_blank" rel="noopener">Department of Home Affairs, 2024</a>).</p>
+          </div>
+        </div>
+
+        <nav class="subnav" aria-label="Context 1 Section Links">
+          <a href="#c1-sec-a">Section A: Context &amp; Theories</a>
+          <a href="#c1-sec-b">Section B: Impact on Children &amp; Families</a>
+          <a href="#c1-sec-c">Section C: Social Policy</a>
+          <a href="#c1-sec-d">Section D: Strategies (2)</a>
+          <a href="#c1-sec-e">Section E: Partnerships (2)</a>
+          <a href="#c1-sec-f">Section F: Resources (6)</a>
+        </nav>
+      </div>
+
+      <!-- SECTION A -->
+      <article id="c1-sec-a" class="section-block">
+        <div class="section-title">
+          <div class="section-letter">A</div>
+          <h2>Section A – Understanding the Context</h2>
+        </div>
+        <p>
+          Cultural and linguistic diversity is central to contemporary Australian early childhood education and care (ECEC). The 2021 Census demonstrates that 27.6% of Australians were born overseas, 48.2% have at least one overseas-born parent, and 22.2% speak a language other than English at home (Australian Bureau of Statistics [ABS], 2022). Concurrently, Australia’s Humanitarian Program resettled 20,000 refugees and humanitarian entrants in 2023–24, many of whom are young families fleeing conflict in Afghanistan, Myanmar, Syria, and East Africa (Department of Home Affairs, 2024). According to the Australian Early Development Census (AEDC), 26.8% of children (81,885 children) enter school with a Language Background Other Than English (LBOTE), up from 18.0% in 2009 (Department of Education, Skills and Employment [DESE], 2022). Because early childhood services are often the first Australian institution families encounter, educators play a decisive role in fostering belonging, cultural safety, and settlement recovery (Lamb, 2020).
+        </p>
+        <p>
+          Sociological theories guide educators to move beyond tokenistic multiculturalism into responsive practice. In <strong>Bronfenbrenner’s (1979; Bronfenbrenner &amp; Morris, 2007) Bioecological Systems Theory</strong>, a child’s classroom development (<em>microsystem</em>) is directly shaped by educator–parent communication (<em>mesosystem</em>), parental visa conditions and settlement services (<em>exosystem</em>), national migration attitudes (<em>macrosystem</em>), and pre-migration displacement across time (<em>chronosystem</em>). For example, when a newly arrived 3-year-old shows separation distress, an educator strengthens the mesosystem by engaging a bilingual worker during unhurried drop-offs rather than viewing the child through an attachment-deficit lens. <strong>Bourdieu’s (1986) Cultural Capital Theory</strong> explains how monolingual Anglo-Australian routines marginalise migrant families when their home languages and oral traditions are devalued; educators counter this by embedding children’s home languages (<em>L1</em>) into daily group times as valued academic capital (McInnes et al., 2024). Finally, <strong>Social Constructionism (Berger &amp; Luckmann, 1966; James &amp; Prout, 1997)</strong> shows that developmental norms such as solo sleeping or independent self-feeding are culturally constructed, prompting educators to respect collectivist caregiving practices and treat immigrant children as capable social agents.
+        </p>
+      </article>
+
+      <!-- SECTION B -->
+      <article id="c1-sec-b" class="section-block">
+        <div class="section-title">
+          <div class="section-letter">B</div>
+          <h2>Section B – Impact on Children and Families</h2>
+        </div>
+        <p>
+          Migration and forced displacement significantly influence young children’s development, wellbeing, cultural identity, and learning participation. Refugee children exposed to pre-migration conflict, unstable transit, or parental distress frequently display pre-verbal trauma responses in early childhood settings—including hypervigilance, acute startle reactions to loud noises or alarms, sleep difficulties, and withdrawal from peer play (Berger et al., 2023; Lamb, 2020). Simultaneously, emergent bilingual children navigating an English-dominant room often experience a receptive "silent period." While AEDC data show that LBOTE children still acquiring English at school entry have higher vulnerability in the communication domain, bilingual LBOTE children who are supported to maintain their first language alongside English demonstrate strong social competence and emotional maturity (DESE, 2022). When services enforce subtractive English-only expectations, children risk cultural shame and erosion of home-language fluency with parents and elders (de Heer et al., 2016; McInnes et al., 2024).
+        </p>
+        <p>
+          Families simultaneously face complex settlement stressors: navigating unfamiliar bureaucracy, housing insecurity, underemployment, loss of extended kinship networks, and language barriers—with 852,706 Australians speaking English "not well" or "not at all" (ABS, 2022). Complex online Child Care Subsidy (CCS) applications and English-only enrolment forms can deter family participation, while refugee survivors of state persecution may feel apprehension toward official authorities (Due &amp; Riggs, 2016; Lamb, 2020). For early childhood educators, this requires replacing transactional paperwork with trauma-informed relational pedagogy: using accredited interpreters, extending orientation periods, establishing predictable visual routines, and actively representing families’ cultures to uphold identity and belonging (Australian Government Department of Education [AGDE], 2022).
+        </p>
+      </article>
+
+      <!-- SECTION C -->
+      <article id="c1-sec-c" class="section-block">
+        <div class="section-title">
+          <div class="section-letter">C</div>
+          <h2>Section C – Social Policy and Australian Responses</h2>
+        </div>
+        <div class="grid-3">
+          <div class="inner-card">
+            <h4>1. National: EYLF V2.0 &amp; National Quality Standard (QA1 &amp; QA6)</h4>
+            <p><strong>Purpose:</strong> <em>Belonging, Being and Becoming</em> (V2.0) (AGDE, 2022) and the NQS (Australian Children’s Education and Care Quality Authority [ACECQA], n.d.) mandate <em>Respect for Diversity</em>, <em>Cultural Responsiveness</em>, and family partnerships, supporting home languages (Outcome 5) and cultural identity (Outcome 1).</p>
+            <p><strong>Evaluation &amp; Practice:</strong> Guides daily anti-bias curriculum and family co-design; however, without mandatory trauma training, some services default to tokenistic cultural celebrations rather than deep linguistic inclusion (McInnes et al., 2024).</p>
+            <p><a href="https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf" target="_blank" rel="noopener">Official EYLF V2.0 Document</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>2. National: Inclusion Support Program (ISP)</h4>
+            <p><strong>Purpose:</strong> Administered by the Australian Government Department of Education (AGDE, 2023) to build ECEC capacity to include children from culturally and linguistically diverse (CALD) and refugee backgrounds via Strategic Inclusion Plans and Bicultural Support.</p>
+            <p><strong>Evaluation &amp; Practice:</strong> Funds bicultural workers to translate intake meetings and support orientation, though strict time caps and application complexity limit ongoing bilingual staffing after initial settling.</p>
+            <p><a href="https://www.education.gov.au/child-care-package/inclusion-support-program" target="_blank" rel="noopener">Official ISP Policy Portal</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>3. South Australia: Preschool Bilingual Support Program &amp; Multicultural Charter</h4>
+            <p><strong>Purpose:</strong> Operationalises the <em>South Australian Multicultural Charter</em> (Department of the Premier and Cabinet South Australia, 2023) by placing Bilingual Support Workers in SA Department for Education preschools (Department for Education South Australia, 2023a).</p>
+            <p><strong>Evaluation &amp; Practice:</strong> Highly effective in helping multilingual preschoolers use their first language as a bridge to learning, though allocated hours are rationed and rarely cover private long-day care centres.</p>
+            <p><a href="https://www.sa.gov.au/topics/education-and-learning/international-students/english-language-support" target="_blank" rel="noopener">SA Bilingual Support Policy</a></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SECTION D -->
+      <article id="c1-sec-d" class="section-block">
+        <div class="section-title">
+          <div class="section-letter">D</div>
+          <h2>Section D – Strategies for Practice (Birth to 5 Years)</h2>
+        </div>
+        <div class="grid-2">
+          <div class="inner-card">
+            <h4>Strategy 1: Translanguaging, Visual Scaffolding &amp; Home-Language Story Baskets</h4>
+            <p><strong>1. What it involves:</strong> Integrating children’s home languages (<em>L1</em>), real-photo visual lanyards, and family-recorded audio stories/lullabies into daily routines and play spaces (EYLF V2.0 Outcomes 1 &amp; 5).</p>
+            <p><strong>2. Research support:</strong> South Australian research by McInnes et al. (2024) proves that valuing children’s home languages strengthens social-emotional security, peer inclusion, and English acquisition while validating family cultural capital (Bourdieu, 1986).</p>
+            <p><strong>3. Implementation:</strong> During orientation, educators partner with parents and bilingual workers to record phonetic comfort words and songs, pair them with visual schedule magnets, and build tactile Dual-Language Story Baskets.</p>
+            <p><strong>4. Classroom example:</strong> For a 14-month-old Arabic-speaking toddler, the educator uses photo cue cards for meals and nappy changes while playing the mother’s recorded Arabic lullaby at sleep time. In preschool (3–5 years), a 4-year-old Hazaragi-speaking child uses a story basket to teach peers greetings and counting in Hazaragi.</p>
+            <p><strong>5. Expected benefits:</strong> Reduces anxiety during the silent period, affirms cultural identity, and builds anti-bias peer empathy.</p>
+          </div>
+          <div class="inner-card">
+            <h4>Strategy 2: Trauma-Informed Primary Caregiving &amp; Sensory Sanctuary Spaces</h4>
+            <p><strong>1. What it involves:</strong> Assigning a consistent Primary Caregiver, staggered unhurried orientations, gentle transition cues, and a low-stimulation "Cosy Sanctuary Nook" for self-regulation (EYLF V2.0 Outcome 3; NQS QA2 &amp; QA5).</p>
+            <p><strong>2. Research support:</strong> Lamb (2020) and Berger et al. (2023) demonstrate that refugee children experiencing pre-migration or settlement trauma require predictable relational safety to lower cortisol hyperarousal before exploration can occur.</p>
+            <p><strong>3. Implementation:</strong> One key educator greets the child and parent daily, replaces loud bells with soft chimes and 5-minute visual warnings, and furnishes a sanctuary tent with familiar cultural textiles, family photos, and weighted lap cushions.</p>
+            <p><strong>4. Classroom example:</strong> A 3-year-old from a humanitarian background who startles at sudden noises holds a scarf carrying his mother’s scent, reviews a custom photo routine book ("Mum goes to English class, I play, Mum returns after fruit"), and receives calm one-on-one co-regulation in the sanctuary nook prior to evacuation drills.</p>
+            <p><strong>5. Expected benefits:</strong> Builds secure secondary attachment, lowers physiological hypervigilance, and deepens family trust in the service.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SECTION E -->
+      <article id="c1-sec-e" class="section-block">
+        <div class="section-title">
+          <div class="section-letter">E</div>
+          <h2>Section E – Community and Professional Partnerships</h2>
+        </div>
+        <div class="grid-2">
+          <div class="inner-card">
+            <h4>1. Australian Migrant Resource Centre (AMRC) – South Australia</h4>
+            <p><strong>Role &amp; Services:</strong> Leading SA settlement agency across Adelaide and regional hubs (Salisbury, Murray Bridge, Mount Gambier, Naracoorte, Whyalla), delivering the <em>Children and Parenting Support (CaPS)</em> program, bilingual multicultural playgroups, and settlement casework.</p>
+            <p><strong>Family Access:</strong> Free self-referral or educator referral via AMRC regional centres without requiring clinical diagnoses.</p>
+            <p><strong>Educator Collaboration &amp; Benefits:</strong> Educators partner with AMRC bicultural workers to co-host orientation days, assist parents with CCS/preschool enrolment, and facilitate bilingual Individual Learning Plan meetings (NQS QA6), reducing family isolation.</p>
+            <p><a href="https://amrc.org.au/" target="_blank" rel="noopener">Verified Website: https://amrc.org.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>2. STTARS (Survivors of Torture and Trauma Assistance and Rehabilitation Service – SA)</h4>
+            <p><strong>Role &amp; Services:</strong> Specialist Adelaide agency (81 Angas St, Adelaide) providing free, confidential trauma-informed counselling, play-based Child and Youth Program support, and early childhood educator training for refugee survivors of torture and war.</p>
+            <p><strong>Family Access:</strong> Free referral by parents, early childhood educators (with informed consent), or health nurses via phone (08 8206 8900) or online form, with free accredited interpreters.</p>
+            <p><strong>Educator Collaboration &amp; Benefits:</strong> Educators attend STTARS trauma workshops and consult with Child and Youth Counsellor-Advocates to align classroom sensory retreats with family therapy, supporting intergenerational healing.</p>
+            <p><a href="https://www.sttars.org.au/" target="_blank" rel="noopener">Verified Website: https://www.sttars.org.au/</a></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SECTION F -->
+      <article id="c1-sec-f" class="section-block">
+        <div class="section-title">
+          <div class="section-letter">F</div>
+          <h2>Section F – Resources for Educators and Children (6 Verified Resources)</h2>
+        </div>
+
+        <h3 style="margin-bottom: 0.75rem; font-size: 1.15rem;">1. Projects, Programs or Websites (Two Resources)</h3>
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <div class="inner-card">
+            <h4>fka Children’s Services (fkaCS) – Cultural Inclusion &amp; Multicultural Resource Centre</h4>
+            <p><strong>Offers &amp; Supports:</strong> Provides the <em>Cultural Inclusion Reflective Practice Toolkit</em>, multilingual orientation scripts, and a bilingual lending library for educators and CALD children (birth–5).</p>
+            <p><strong>Educator Use:</strong> Teams use the toolkit to audit room routines for cultural bias and implement home-language storytelling (EYLF V2.0 Outcome 5).</p>
+            <p><a href="https://fka.org.au/" target="_blank" rel="noopener">https://fka.org.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Raising Children Network – Translated Resources Portal</h4>
+            <p><strong>Offers &amp; Supports:</strong> Australian Government-funded early childhood health, sleep, nutrition, and play guides translated into 15+ community languages (e.g., Arabic, Dari, Dinka, Karen, Vietnamese) for migrant parents and educators.</p>
+            <p><strong>Educator Use:</strong> Educators share translated visual guides and QR links with families during routine consultations to support equitable health and developmental partnerships.</p>
+            <p><a href="https://raisingchildren.net.au/guides/translated-resources" target="_blank" rel="noopener">https://raisingchildren.net.au/guides/translated-resources</a></p>
+          </div>
+        </div>
+
+        <h3 style="margin-bottom: 0.75rem; font-size: 1.15rem;">2. Children’s Storybooks for Birth to 5 Years (Two Books)</h3>
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <div class="inner-card">
+            <h4><em>Whoever You Are</em> (1997) – Mem Fox (Illus. Leslie Staub)</h4>
+            <p><strong>Theme &amp; Age Suitability:</strong> Celebrates global diversity and shared human emotions ("inside, their hearts are just like yours"). Ideal for ages <strong>birth to 5 years</strong> due to its gentle, rhythmic refrain.</p>
+            <p><strong>Educator Use:</strong> Shared during mat time alongside mirrors, skin-tone paint mixing, and family photo boards to foster belonging and anti-bias empathy (EYLF V2.0 Outcomes 1 &amp; 2).</p>
+            <p><a href="https://memfox.com/books/whoever-you-are/" target="_blank" rel="noopener">Verify Book Details</a></p>
+          </div>
+          <div class="inner-card">
+            <h4><em>My Two Blankets</em> (2014) – Irena Kobald (Illus. Freya Blackwood)</h4>
+            <p><strong>Theme &amp; Age Suitability:</strong> A young girl named Cartwheel moves to a new country and finds comfort in her metaphorical "old blanket" of home words while weaving a "new blanket" of new words and friendship. Suitable for ages <strong>2 to 5 years</strong>.</p>
+            <p><strong>Educator Use:</strong> Paired with tangible fabric blankets and bilingual word cards in the cosy corner to help preschoolers empathise with peers acquiring English while honouring home languages.</p>
+            <p><a href="https://cbca.org.au/previous-winners/" target="_blank" rel="noopener">Verify CBCA Award Record</a></p>
+          </div>
+        </div>
+
+        <h3 style="margin-bottom: 0.75rem; font-size: 1.15rem;">3. Children’s Videos, Educational Shows or Podcasts (Two Resources)</h3>
+        <div class="grid-2">
+          <div class="inner-card">
+            <h4><em>ABC Kids listen: Lullabies</em> – ABC Kids (Australian Broadcasting Corporation)</h4>
+            <p><strong>Audience &amp; Relevance:</strong> Infants, toddlers, and preschoolers (<strong>birth–5 years</strong>). Features soothing lullabies sung in diverse community and First Nations languages, validating auditory cultural heritage.</p>
+            <p><strong>Educator Use:</strong> Played during infant/toddler sleep times and preschool relaxation routines to create culturally familiar, calming auditory environments.</p>
+            <p><a href="https://www.abc.net.au/kidslisten/programs/lullabies" target="_blank" rel="noopener">https://www.abc.net.au/kidslisten/programs/lullabies</a></p>
+          </div>
+          <div class="inner-card">
+            <h4><em>Play School: Acknowledgement of Country</em> – ABC Kids iview</h4>
+            <p><strong>Audience &amp; Relevance:</strong> Toddlers and preschoolers (<strong>1–5 years</strong>). Uses familiar Play School toys (Jemima, Big Ted, Kiya) to explore cultural identity, connection to Country, and respectful multilingual greetings.</p>
+            <p><strong>Educator Use:</strong> Viewed in small groups to inspire daily child-led Acknowledgements of Country and discussions celebrating every family’s cultural heritage.</p>
+            <p><a href="https://iview.abc.net.au/show/play-school-acknowledgement-of-country" target="_blank" rel="noopener">https://iview.abc.net.au/show/play-school-acknowledgement-of-country</a></p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ==========================================
+         PAGE 3: CONTEXT 2 – CRISIS AND EMERGENCY
+         ========================================== -->
+    <section id="page-context-2" class="page-view">
+      <div class="context-header">
+        <span class="badge terracotta">Context 2 • Crisis and Emergency</span>
+        <h1>Supporting Children and Families Affected by Natural Disasters and Climate-Related Emergencies in Australia</h1>
+        <p>Trauma-informed early childhood recovery, socio-ecological resilience, and community social capital during bushfires, floods, and extreme weather.</p>
+
+        <div class="grid-3" style="margin-top: 1.25rem;">
+          <div class="stat-box">
+            <span class="stat-value terracotta">1.4 Million</span>
+            <span class="stat-label">Children Exposed Annually</span>
+            <p style="font-size: 0.82rem;">Over 1.4M Australian children are exposed to natural disasters in an average year; 40% of rural children were impacted by the 2019–20 bushfires (<a href="https://www.royalfarwest.org.au/wp-content/uploads/2021/03/After-the-Disaster-Recovery-for-Australias-Children-produced-by-Royal-Far-West-UNICEF-Australia.pdf" target="_blank" rel="noopener">Royal Far West &amp; UNICEF Australia, 2021</a>).</p>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value terracotta">24M Hectares</span>
+            <span class="stat-label">Black Summer Bushfires</span>
+            <p style="font-size: 0.82rem;">Over 24 million hectares burned and 3,000+ homes were destroyed in 2019–20, exposing millions of families to hazardous smoke (<a href="https://www.royalcommission.gov.au/sites/default/files/2020-11/Royal%20Commission%20into%20National%20Natural%20Disaster%20Arrangements%20-%20Report.pdf" target="_blank" rel="noopener">Royal Commission, 2020</a>).</p>
+          </div>
+          <div class="stat-box">
+            <span class="stat-value terracotta">91,000 Hectares</span>
+            <span class="stat-label">2022–23 SA River Murray Floods</span>
+            <p style="font-size: 0.82rem;">Peak flows of 186 GL/day inundated 91,000 hectares in South Australia, impacting thousands of properties and triggering $194M in recovery support (<a href="https://recovery.sa.gov.au/active-recoveries/river-murray-flood" target="_blank" rel="noopener">Government of SA, 2023</a>).</p>
+          </div>
+        </div>
+
+        <nav class="subnav" aria-label="Context 2 Section Links">
+          <a href="#c2-sec-a">Section A: Context &amp; Theories</a>
+          <a href="#c2-sec-b">Section B: Impact on Children &amp; Families</a>
+          <a href="#c2-sec-c">Section C: Social Policy</a>
+          <a href="#c2-sec-d">Section D: Strategies (2)</a>
+          <a href="#c2-sec-e">Section E: Partnerships (2)</a>
+          <a href="#c2-sec-f">Section F: Resources (6)</a>
+        </nav>
+      </div>
+
+      <!-- SECTION A -->
+      <article id="c2-sec-a" class="section-block">
+        <div class="section-title">
+          <div class="section-letter terracotta">A</div>
+          <h2>Section A – Understanding the Context</h2>
+        </div>
+        <p>
+          Australia faces escalating frequency and severity of climate-related natural disasters, including bushfires, riverine and flash floods, droughts, and extreme heatwaves (Marinkovic Chavez et al., 2024). During the 2019–2020 Black Summer bushfires, over 24 million hectares burned and 3,000 homes were destroyed (Royal Commission into National Natural Disaster Arrangements, 2020), followed by major eastern Australian floods and the 2022–2023 South Australian River Murray floods, which inundated 91,000 hectares and damaged thousands of homes (Government of South Australia, 2023). Nationally, over 1.4 million Australian children are exposed to a natural disaster in an average year (Royal Far West &amp; UNICEF Australia, 2021). Although children aged birth to five are among the most physiologically and emotionally vulnerable groups during emergencies, their developmental needs are frequently overlooked in adult-centric disaster planning (Emerging Minds, 2023; Gibbs et al., 2015).
+        </p>
+        <p>
+          Sociological frameworks highlight the vital protective role of early childhood services before, during, and after crises. Through <strong>Bronfenbrenner’s (1979; Bronfenbrenner &amp; Morris, 2007) Bioecological Systems Theory</strong>, a disaster is an acute chronosystem shock that simultaneously fractures the child’s <em>microsystem</em> (damaged homes, evacuated preschools, lost pets) and <em>exosystem</em> (lost parental livelihoods, closed health clinics); restoring a predictable ECEC microsystem buffers the young child when the home environment is under strain. <strong>Social Capital Theory (Aldrich, 2012; Putnam, 2000)</strong> demonstrates that community recovery depends on <em>bonding capital</em> (close family attachment), <em>bridging capital</em> (horizontal neighbourhood solidarity where the preschool acts as a trusted community hub), and <em>linking capital</em> (connecting families with Recovery SA, government relief, and mental health services). Finally, <strong>Socio-Ecological Resilience Theory (Masten, 2001, 2014; Ungar, 2011)</strong> conceptualises resilience not as an innate personality trait, but as "ordinary magic" generated when everyday protective systems—warm educator co-regulation, predictable routines, and therapeutic play—shield the child’s developing stress-response system.
+        </p>
+      </article>
+
+      <!-- SECTION B -->
+      <article id="c2-sec-b" class="section-block">
+        <div class="section-title">
+          <div class="section-letter terracotta">B</div>
+          <h2>Section B – Impact on Children and Families</h2>
+        </div>
+        <p>
+          Natural disasters affect infants, toddlers, and preschoolers across physical, neurodevelopmental, emotional, and educational domains. Biologically, young children under five are highly susceptible to bushfire smoke particulate matter, extreme heat, and floodwater contaminants (Royal Far West &amp; UNICEF Australia, 2021). Psychologically, because birth-to-5 children cannot regulate intense autonomic arousal independently, trauma manifests somatically and behaviourally: heightened separation anxiety, sleep and toileting regression, hypervigilance to weather triggers (wind, thunder, smoke, or sirens), and repetitive disaster re-enactment in play (Emerging Minds, 2023). Longitudinal evidence from the Australian <em>Beyond Bushfires</em> study (Gibbs et al., 2015; Gibbs et al., 2019) reveals that early childhood disaster exposure can produce delayed declines in primary school reading and numeracy years later if early developmental disruptions are not buffered.
+        </p>
+        <p>
+          A young child’s recovery is closely tied to caregiver wellbeing. Families affected by bushfires or floods often experience housing displacement, financial loss, and elevated parental post-traumatic stress, which can temporarily reduce parents’ capacity for attuned emotional co-regulation (Gibbs et al., 2015; Marinkovic Chavez et al., 2024). Simultaneously, emergency closures of early learning centres disrupt children’s routines precisely when stability is most needed, while early childhood educators often navigate dual trauma as both disaster survivors and frontline caregivers (Berger et al., 2022; Berger et al., 2023). Consequently, services must provide psychological first aid, flexible enrolment and fee relief for displaced families, educator wellbeing support, and a predictable "safe base" classroom environment.
+        </p>
+      </article>
+
+      <!-- SECTION C -->
+      <article id="c2-sec-c" class="section-block">
+        <div class="section-title">
+          <div class="section-letter terracotta">C</div>
+          <h2>Section C – Social Policy and Australian Responses</h2>
+        </div>
+        <div class="grid-3">
+          <div class="inner-card">
+            <h4>1. National: Regulation 97 &amp; NQS Quality Area 2 (Element 2.2.2)</h4>
+            <p><strong>Purpose:</strong> Legally requires all approved ECEC services to conduct annual disaster risk assessments, maintain Emergency Management Plans, and rehearse evacuation/lockdown procedures every 3 months (ACECQA, n.d.).</p>
+            <p><strong>Evaluation &amp; Practice:</strong> Ensures strong physical safety compliance, though audits often emphasise procedural speed over trauma sensitivity; educators must scaffold quarterly drills playfully using social stories so young children are not frightened.</p>
+            <p><a href="https://www.acecqa.gov.au/nqf/about/guide" target="_blank" rel="noopener">Official NQF Guide (ACECQA)</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>2. National: Disaster Mental Health Framework &amp; CCS Emergency Provisions</h4>
+            <p><strong>Purpose:</strong> The <em>National Disaster Mental Health and Wellbeing Framework</em> (National Emergency Management Agency [NEMA], 2023) prioritises infant and family recovery, paired with federal Child Care Subsidy (CCS) Period of Emergency fee waivers and allowable absences.</p>
+            <p><strong>Evaluation &amp; Practice:</strong> CCS gap-fee waivers keep displaced children connected to their centre during financial hardship, though community mental health funding often tapers off before delayed child trauma resolves (Royal Far West &amp; UNICEF Australia, 2021).</p>
+            <p><a href="https://www.nema.gov.au" target="_blank" rel="noopener">Official NEMA Portal</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>3. South Australia: High Bushfire Risk Register &amp; State Emergency Plan</h4>
+            <p><strong>Purpose:</strong> Classifies high bushfire-risk SA preschools and kindergartens, mandating annual readiness audits, Bushfire Refuge buildings, automatic closures on Catastrophic Fire Danger days, and recovery coordination via Recovery SA (Department for Education South Australia, 2023b; Department of the Premier and Cabinet South Australia, n.d.).</p>
+            <p><strong>Evaluation &amp; Practice:</strong> Pre-emptive closure on Catastrophic days protects lives, while shaping annual spring audits, infant comfort grab-bags, and family emergency communication trees in SA centres.</p>
+            <p><a href="https://www.education.sa.gov.au/parents-and-families/safety-and-wellbeing/emergency-management/bushfire-updates-and-service-closures/list-high-bushfire-risk-schools-preschools-and-kindergartens" target="_blank" rel="noopener">SA High Bushfire Risk Policy</a></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SECTION D -->
+      <article id="c2-sec-d" class="section-block">
+        <div class="section-title">
+          <div class="section-letter terracotta">D</div>
+          <h2>Section D – Strategies for Practice (Birth to 5 Years)</h2>
+        </div>
+        <div class="grid-2">
+          <div class="inner-card">
+            <h4>Strategy 1: Therapeutic Story-Sharing &amp; Restorative Play Provocations</h4>
+            <p><strong>1. What it involves:</strong> Pairing therapeutic disaster picture books (such as <em>Birdie’s Tree</em>) and hand puppets with open-ended small-world, water/sand, and regeneration play provocations (EYLF V2.0 Outcomes 2 &amp; 3; NQS QA1 &amp; QA5).</p>
+            <p><strong>2. Research support:</strong> Emerging Minds (2023), Berger et al. (2023), and Masten (2014) show that under-5s process frightening events symbolically through play; educator-scaffolded helper and regrowth play shifts children from helplessness to mastery.</p>
+            <p><strong>3. Implementation:</strong> Educators read <em>Birdie and the Fire</em> with Birdie and Mr Frog puppets, then provide play trays with blocks, native animal figurines, vet kits, and SA Country Fire Service (CFS)/SES helpers alongside seed-planting stations.</p>
+            <p><strong>4. Classroom example:</strong> After local flooding, an educator sits beside toddlers scooping water with toy rescue boats, calmly narrating safety ("The helper boat brought all the calves to dry land"). Preschoolers build an animal hospital and plant fast-sprouting native seeds to observe green shoots returning.</p>
+            <p><strong>5. Expected benefits:</strong> Enables safe externalisation of big feelings, restores agency, and nurtures environmental hope without eco-anxiety.</p>
+          </div>
+          <div class="inner-card">
+            <h4>Strategy 2: Embodied Somatic Co-Regulation &amp; Playful Emergency Readiness</h4>
+            <p><strong>1. What it involves:</strong> Embedding daily somatic breathing and movement routines into the schedule alongside trauma-informed, play-based quarterly evacuation rehearsals (Regulation 97; EYLF V2.0 Outcomes 1 &amp; 3; NQS QA2).</p>
+            <p><strong>2. Research support:</strong> Gibbs et al. (2015) and Emerging Minds (2023) establish that predictable routines and physiological co-regulation calm amygdala hyperarousal triggered by wind, smoke, thunder, or alarms.</p>
+            <p><strong>3. Implementation:</strong> Educators use a daily visual "Weather &amp; Feelings Check-In," practice playful somatic games ("Turtle Breath" and "Cooling the Hot Soup"), and introduce quarterly evacuation drills using a custom photo social story and comfort grab-bags.</p>
+            <p><strong>4. Classroom example:</strong> When strong winds rattle a South Australian preschool, the educator dims harsh lights, leads three rounds of "Turtle Breath" and humming on the mat with weighted lap cushions, and reassures children: "The wind is outside; our roof and teachers keep us safe inside."</p>
+            <p><strong>5. Expected benefits:</strong> Prevents re-traumatisation during mandatory drills, builds embodied self-soothing skills, and models co-regulation for parents.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SECTION E -->
+      <article id="c2-sec-e" class="section-block">
+        <div class="section-title">
+          <div class="section-letter terracotta">E</div>
+          <h2>Section E – Community and Professional Partnerships</h2>
+        </div>
+        <div class="grid-2">
+          <div class="inner-card">
+            <h4>1. Emerging Minds (National Workforce Centre for Child Mental Health – Adelaide, SA)</h4>
+            <p><strong>Role &amp; Services:</strong> Headquartered in Adelaide (52 Waymouth St), Emerging Minds delivers the <em>Community Trauma Toolkit</em>, free educator e-learning, podcasts, and age-specific parent disaster recovery guides for babies, toddlers, and preschoolers.</p>
+            <p><strong>Family Access:</strong> Free 24/7 online access via the Emerging Minds Families portal and printable fact sheets at local recovery hubs with no referral required.</p>
+            <p><strong>Educator Collaboration &amp; Benefits:</strong> Educators complete Community Trauma modules, integrate infant psychological first aid checklists into centre Emergency Plans, and share parent tip sheets on toddler sleep/regression (NQS QA2 &amp; QA6).</p>
+            <p><a href="https://emergingminds.com.au/" target="_blank" rel="noopener">Verified Website: https://emergingminds.com.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>2. Australian Red Cross – Emergency Services &amp; Recovery (SA &amp; National)</h4>
+            <p><strong>Role &amp; Services:</strong> Provides Psychological First Aid at SA evacuation centres, regional recovery outreach officers (e.g., Adelaide Hills, Kangaroo Island, Riverland), <em>RediPlan</em> household preparedness kits, and <em>Helping Children Cope with Crisis</em> guides.</p>
+            <p><strong>Family Access:</strong> Direct access at SA Relief Centres, mobile outreach visits, phone (1800 733 276), or free online recovery downloads.</p>
+            <p><strong>Educator Collaboration &amp; Benefits:</strong> Centres host Red Cross family preparedness mornings, stock parent recovery guides in the foyer, and align centre emergency kits with RediPlan standards, building linking social capital (Aldrich, 2012).</p>
+            <p><a href="https://www.redcross.org.au/emergencies/" target="_blank" rel="noopener">Verified Website: https://www.redcross.org.au/emergencies/</a></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SECTION F -->
+      <article id="c2-sec-f" class="section-block">
+        <div class="section-title">
+          <div class="section-letter terracotta">F</div>
+          <h2>Section F – Resources for Educators and Children (6 Verified Resources)</h2>
+        </div>
+
+        <h3 style="margin-bottom: 0.75rem; font-size: 1.15rem;">1. Projects, Programs or Websites (Two Resources)</h3>
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <div class="inner-card">
+            <h4>Birdie’s Tree – Natural Disaster Recovery &amp; Early Learning Program</h4>
+            <p><strong>Offers &amp; Supports:</strong> Created by the Queensland Centre for Perinatal and Infant Mental Health (Children’s Health Queensland) specifically for babies, toddlers, and preschoolers (<strong>birth–5 years</strong>), offering free multilingual digital flipbooks, emotional regulation games, puppets, and an early learning curriculum guide.</p>
+            <p><strong>Educator Use:</strong> Used to plan trauma-informed group times and puppet play before and after fires, floods, and storms.</p>
+            <p><a href="https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery" target="_blank" rel="noopener">https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Emerging Minds – Community Trauma Toolkit for Educators</h4>
+            <p><strong>Offers &amp; Supports:</strong> Digital toolkit structured across five disaster phases (Preparedness, Immediate, Short-term, Long-term, Ongoing) for Australian early childhood educators and families of children aged 0–5.</p>
+            <p><strong>Educator Use:</strong> Guides seasonal readiness checklists, identification of pre-verbal trauma cues in infants/toddlers, and educator self-care.</p>
+            <p><a href="https://emergingminds.com.au/resources/toolkits/community-trauma-toolkit/educators/" target="_blank" rel="noopener">https://emergingminds.com.au/resources/toolkits/community-trauma-toolkit/educators/</a></p>
+          </div>
+        </div>
+
+        <h3 style="margin-bottom: 0.75rem; font-size: 1.15rem;">2. Children’s Storybooks for Birth to 5 Years (Two Books)</h3>
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <div class="inner-card">
+            <h4><em>Birdie and the Fire</em> (and <em>Birdie and the Flood</em>, 2016) – Andrea Murray (Illus. Anil Tortop)</h4>
+            <p><strong>Theme &amp; Age Suitability:</strong> Clinically designed for ages <strong>birth to 5 years</strong>. Follows Birdie and Mr Frog as firefighters keep them safe during a bushfire, validating big feelings of fear and sadness and showing green shoots regrowing.</p>
+            <p><strong>Educator Use:</strong> Read with Birdie puppets during circle time to name feelings, highlight protective helpers, and reassure young children of safety.</p>
+            <p><a href="https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery/birdies-tree-storybooks" target="_blank" rel="noopener">Verify Birdie’s Tree Storybooks</a></p>
+          </div>
+          <div class="inner-card">
+            <h4><em>Flood</em> (2011) (and companion book <em>Fire</em>, 2014) – Jackie French (Illus. Bruce Whatley)</h4>
+            <p><strong>Theme &amp; Age Suitability:</strong> Told gently through the eyes of a loyal Australian cattle dog watching communities unite with tugboats, volunteers, and kindness during a river flood. Suitable for preschoolers (<strong>3 to 5 years</strong>).</p>
+            <p><strong>Educator Use:</strong> Used to spark discussions around community helpers, empathy, and collective recovery (EYLF V2.0 Outcome 2).</p>
+            <p><a href="https://www.jackiefrench.com/flood" target="_blank" rel="noopener">Verify Book Details</a></p>
+          </div>
+        </div>
+
+        <h3 style="margin-bottom: 0.75rem; font-size: 1.15rem;">3. Children’s Videos, Educational Shows or Podcasts (Two Resources)</h3>
+        <div class="grid-2">
+          <div class="inner-card">
+            <h4><em>Birdie and the Fire</em> – Official Animated Read-Aloud Video (Children’s Health Queensland)</h4>
+            <p><strong>Audience &amp; Relevance:</strong> Infants, toddlers, and preschoolers (<strong>birth–5 years</strong>) and families. Gentle animated storytelling reinforcing fire safety, emotional expression, and natural regrowth.</p>
+            <p><strong>Educator Use:</strong> Watched in small groups or shared with families sheltering at home, followed by puppet conversation and drawing.</p>
+            <p><a href="https://www.youtube.com/watch?v=N6wHhH8R2JA" target="_blank" rel="noopener">https://www.youtube.com/watch?v=N6wHhH8R2JA</a></p>
+          </div>
+          <div class="inner-card">
+            <h4><em>The Impact of Natural Disasters on Babies and Young Children</em> – Emerging Minds Video &amp; Podcast Series</h4>
+            <p><strong>Audience &amp; Relevance:</strong> Early childhood educators and parents of children aged <strong>birth–5 years</strong>. Explains how babies and young children communicate disaster distress non-verbally and how routines and play buffer stress.</p>
+            <p><strong>Educator Use:</strong> Used in team professional reflection and shared in family newsletters alongside Emerging Minds flood/bushfire recovery podcasts.</p>
+            <p><a href="https://emergingminds.com.au/resources/the-impact-of-natural-disasters-on-babies-and-young-children/" target="_blank" rel="noopener">https://emergingminds.com.au/resources/the-impact-of-natural-disasters-on-babies-and-young-children/</a></p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ==========================================
+         PAGE 4: EDUCATOR RESOURCE LIBRARY
+         ========================================== -->
+    <section id="page-library" class="page-view">
+      <div class="context-header">
+        <span class="badge">Educator Resource Library</span>
+        <h1>Verified Birth–5 Educational Resources &amp; Professional Directory</h1>
+        <p>Filter verified resources by category: Books, Videos &amp; Podcasts, Websites &amp; Programs, Organisations, and Professional Guidance.</p>
+
+        <div class="filter-bar" style="margin-top: 1.25rem; margin-bottom: 0;">
+          <button type="button" class="filter-btn active" onclick="filterLibrary('all', this)">All Categories</button>
+          <button type="button" class="filter-btn" onclick="filterLibrary('lib-books', this)">Books (4)</button>
+          <button type="button" class="filter-btn" onclick="filterLibrary('lib-videos', this)">Videos &amp; Podcasts (4)</button>
+          <button type="button" class="filter-btn" onclick="filterLibrary('lib-websites', this)">Websites &amp; Programs (4)</button>
+          <button type="button" class="filter-btn" onclick="filterLibrary('lib-orgs', this)">Organisations (4)</button>
+          <button type="button" class="filter-btn" onclick="filterLibrary('lib-guidance', this)">Professional Guidance (6)</button>
+        </div>
+      </div>
+
+      <!-- Books -->
+      <div class="section-block lib-group" id="lib-books">
+        <h2>Children’s Storybooks (Birth to 5 Years)</h2>
+        <div class="grid-2" style="margin-top: 1rem;">
+          <div class="inner-card">
+            <span class="badge">Context 1 • Birth–5 Years</span>
+            <h4><em>Whoever You Are</em> (1997) – Mem Fox (Illus. Leslie Staub)</h4>
+            <p>Celebrates shared humanity across diverse cultures, languages, and lands. Used with mirrors and family photo boards to nurture belonging (EYLF V2.0 Outcomes 1 &amp; 2). <a href="https://memfox.com/books/whoever-you-are/" target="_blank" rel="noopener">Link</a></p>
+          </div>
+          <div class="inner-card">
+            <span class="badge">Context 1 • 2–5 Years</span>
+            <h4><em>My Two Blankets</em> (2014) – Irena Kobald (Illus. Freya Blackwood)</h4>
+            <p>Explores migrating to a new country and weaving a new blanket of words and friendship while keeping one’s home language blanket. <a href="https://cbca.org.au/previous-winners/" target="_blank" rel="noopener">Link</a></p>
+          </div>
+          <div class="inner-card">
+            <span class="badge terracotta">Context 2 • Birth–5 Years</span>
+            <h4><em>Birdie and the Fire</em> (2016) – Andrea Murray (Illus. Anil Tortop, QCPIMH)</h4>
+            <p>Clinically designed picture book helping infants, toddlers, and preschoolers process bushfire/flood feelings and recognise emergency helpers. <a href="https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery/birdies-tree-storybooks" target="_blank" rel="noopener">Link</a></p>
+          </div>
+          <div class="inner-card">
+            <span class="badge terracotta">Context 2 • 3–5 Years</span>
+            <h4><em>Flood</em> (2011) – Jackie French (Illus. Bruce Whatley)</h4>
+            <p>Told through the eyes of an Australian cattle dog watching community helpers and neighbours unite with kindness during a flood. <a href="https://www.jackiefrench.com/flood" target="_blank" rel="noopener">Link</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Videos -->
+      <div class="section-block lib-group" id="lib-videos">
+        <h2>Videos, Educational Shows &amp; Podcasts</h2>
+        <div class="grid-2" style="margin-top: 1rem;">
+          <div class="inner-card">
+            <span class="badge">Context 1 • Audio &amp; Video</span>
+            <h4><em>ABC Kids listen: Lullabies</em> (ABC Kids)</h4>
+            <p>Multicultural and First Nations soothing bedtime songs for infant/toddler sleep and rest routines. <a href="https://www.abc.net.au/kidslisten/programs/lullabies" target="_blank" rel="noopener">Direct Link</a></p>
+          </div>
+          <div class="inner-card">
+            <span class="badge">Context 1 • Educational TV</span>
+            <h4><em>Play School: Acknowledgement of Country</em> (ABC Kids iview)</h4>
+            <p>Introduces cultural identity, connection to Country, and welcoming diversity for children aged 1–5 years. <a href="https://iview.abc.net.au/show/play-school-acknowledgement-of-country" target="_blank" rel="noopener">Direct Link</a></p>
+          </div>
+          <div class="inner-card">
+            <span class="badge terracotta">Context 2 • Animated Video</span>
+            <h4><em>Birdie and the Fire</em> – Official Animated Read-Aloud (Children’s Health QLD)</h4>
+            <p>Calm animated storytelling video for children aged birth–5 experiencing bushfire season or recovery. <a href="https://www.youtube.com/watch?v=N6wHhH8R2JA" target="_blank" rel="noopener">Direct Link</a></p>
+          </div>
+          <div class="inner-card">
+            <span class="badge terracotta">Context 2 • Video &amp; Podcast</span>
+            <h4><em>The Impact of Natural Disasters on Babies and Young Children</em> (Emerging Minds)</h4>
+            <p>Evidence-based multimedia explaining infant/preschooler disaster stress responses and co-regulation. <a href="https://emergingminds.com.au/resources/the-impact-of-natural-disasters-on-babies-and-young-children/" target="_blank" rel="noopener">Direct Link</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Websites -->
+      <div class="section-block lib-group" id="lib-websites">
+        <h2>Websites &amp; Early Childhood Programs</h2>
+        <div class="grid-2" style="margin-top: 1rem;">
+          <div class="inner-card">
+            <h4>fka Children’s Services (fkaCS) Cultural Inclusion Portal</h4>
+            <p>Reflective practice toolkits, multilingual orientation scripts, and bilingual book libraries for ECEC services. <a href="https://fka.org.au/" target="_blank" rel="noopener">https://fka.org.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Raising Children Network – Translated Resources</h4>
+            <p>Australian parenting and early development guides translated into 15+ community languages. <a href="https://raisingchildren.net.au/guides/translated-resources" target="_blank" rel="noopener">https://raisingchildren.net.au/guides/translated-resources</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Birdie’s Tree Early Learning Program (QCPIMH)</h4>
+            <p>Interactive multilingual flipbooks, puppets, and early childhood disaster recovery curriculum guides. <a href="https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery" target="_blank" rel="noopener">Official Portal</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Emerging Minds Community Trauma Toolkit for Educators</h4>
+            <p>Stage-by-stage disaster preparedness and trauma recovery checklists for early childhood educators. <a href="https://emergingminds.com.au/resources/toolkits/community-trauma-toolkit/educators/" target="_blank" rel="noopener">Official Portal</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Organisations -->
+      <div class="section-block lib-group" id="lib-orgs">
+        <h2>Community &amp; Professional Partner Organisations</h2>
+        <div class="grid-2" style="margin-top: 1rem;">
+          <div class="inner-card">
+            <h4>Australian Migrant Resource Centre (AMRC – South Australia)</h4>
+            <p>Settlement support, Children and Parenting Support (CaPS), and bilingual multicultural playgroups across SA. <a href="https://amrc.org.au/" target="_blank" rel="noopener">https://amrc.org.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>STTARS (Survivors of Torture and Trauma Assistance and Rehabilitation Service – SA)</h4>
+            <p>Specialist refugee trauma counselling, Child and Youth Program, and educator training in Adelaide. <a href="https://www.sttars.org.au/" target="_blank" rel="noopener">https://www.sttars.org.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Emerging Minds (Headquartered in Adelaide, SA)</h4>
+            <p>National Workforce Centre for Child Mental Health leading infant and early childhood disaster trauma recovery. <a href="https://emergingminds.com.au/" target="_blank" rel="noopener">https://emergingminds.com.au/</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Australian Red Cross – Emergency Services (SA &amp; National)</h4>
+            <p>Psychological First Aid, family RediPlan preparedness, and disaster recovery officers. <a href="https://www.redcross.org.au/emergencies/" target="_blank" rel="noopener">https://www.redcross.org.au/emergencies/</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Guidance -->
+      <div class="section-block lib-group" id="lib-guidance">
+        <h2>Professional Guidance &amp; Policy Frameworks</h2>
+        <div class="grid-3" style="margin-top: 1rem;">
+          <div class="inner-card">
+            <h4>EYLF V2.0 (AGDE, 2022)</h4>
+            <p>National framework guiding Belonging, Cultural Responsiveness, Sustainability, and Outcomes 1–5. <a href="https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf" target="_blank" rel="noopener">PDF Link</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>NQS &amp; Regulation 97 (ACECQA)</h4>
+            <p>Quality Areas 1, 2, 5, and 6 plus quarterly emergency rehearsal requirements. <a href="https://www.acecqa.gov.au/nqf/about/guide" target="_blank" rel="noopener">NQF Guide</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>Inclusion Support Program (AGDE, 2023)</h4>
+            <p>Bicultural support and Strategic Inclusion Plans for CALD and refugee cohorts. <a href="https://www.education.gov.au/child-care-package/inclusion-support-program" target="_blank" rel="noopener">ISP Link</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>SA Preschool Bilingual Support (2023a)</h4>
+            <p>Bilingual Support Workers and EALD transition scaffolding in SA preschools. <a href="https://www.sa.gov.au/topics/education-and-learning/international-students/english-language-support" target="_blank" rel="noopener">SA Policy</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>SA Multicultural Charter (2023)</h4>
+            <p>Statutory principles of cultural respect and equitable service access in SA. <a href="https://www.dpc.sa.gov.au/responsibilities/multicultural-affairs/charter" target="_blank" rel="noopener">Charter Link</a></p>
+          </div>
+          <div class="inner-card">
+            <h4>SA High Bushfire Risk Register (2023b)</h4>
+            <p>Bushfire readiness audits and Catastrophic fire danger closure rules for SA preschools. <a href="https://www.education.sa.gov.au/parents-and-families/safety-and-wellbeing/emergency-management/bushfire-updates-and-service-closures/list-high-bushfire-risk-schools-preschools-and-kindergartens" target="_blank" rel="noopener">SA Register</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PAGE 5: REFERENCES AND ACKNOWLEDGEMENTS
+         ========================================== -->
+    <section id="page-references" class="page-view">
+      <div class="context-header">
+        <span class="badge">APA 7th Edition &amp; Academic Integrity</span>
+        <h1>References and Generative AI Acknowledgements</h1>
+        <p>Complete verified APA 7th edition reference list and transparent Generative AI bibliography.</p>
+      </div>
+
+      <article class="section-block">
+        <h2 style="margin-bottom: 1rem;">Complete APA 7th Edition Reference List</h2>
+        <ul class="apa-list">
+          <li>Aldrich, D. P. (2012). <em>Building resilience: Social capital in post-disaster recovery</em>. University of Chicago Press.</li>
+          <li>Australian Broadcasting Corporation. (2020). <em>Play School: Acknowledgement of Country</em> [Television episode]. ABC Kids iview. <a href="https://iview.abc.net.au/show/play-school-acknowledgement-of-country" target="_blank" rel="noopener">https://iview.abc.net.au/show/play-school-acknowledgement-of-country</a></li>
+          <li>Australian Broadcasting Corporation. (n.d.). <em>Lullabies</em> [Audio podcast and music program]. ABC Kids listen. <a href="https://www.abc.net.au/kidslisten/programs/lullabies" target="_blank" rel="noopener">https://www.abc.net.au/kidslisten/programs/lullabies</a></li>
+          <li>Australian Bureau of Statistics. (2022, June 28). <em>Cultural diversity: Census</em>. <a href="https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census/latest-release" target="_blank" rel="noopener">https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census/latest-release</a></li>
+          <li>Australian Children’s Education and Care Quality Authority. (n.d.). <em>Guide to the National Quality Framework</em>. <a href="https://www.acecqa.gov.au/nqf/about/guide" target="_blank" rel="noopener">https://www.acecqa.gov.au/nqf/about/guide</a></li>
+          <li>Australian Government Department of Education. (2022). <em>Belonging, being &amp; becoming: The Early Years Learning Framework for Australia</em> (V2.0). Australian Government Department of Education for the Ministerial Council. <a href="https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf" target="_blank" rel="noopener">https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf</a></li>
+          <li>Australian Government Department of Education. (2023). <em>Inclusion Support Program</em>. <a href="https://www.education.gov.au/child-care-package/inclusion-support-program" target="_blank" rel="noopener">https://www.education.gov.au/child-care-package/inclusion-support-program</a></li>
+          <li>Australian Migrant Resource Centre. (n.d.). <em>Settlement, community and children &amp; parenting support services</em>. <a href="https://amrc.org.au/" target="_blank" rel="noopener">https://amrc.org.au/</a></li>
+          <li>Australian Red Cross. (n.d.). <em>Emergencies: Prepare, respond and recover</em>. <a href="https://www.redcross.org.au/emergencies/" target="_blank" rel="noopener">https://www.redcross.org.au/emergencies/</a></li>
+          <li>Berger, E., O’Donohue, K., La, C., Quinones, G., &amp; Barnes, M. (2023). Early childhood professionals’ perspectives on dealing with trauma of children. <em>School Mental Health</em>, <em>15</em>(1), 300–311. <a href="https://doi.org/10.1007/s12310-022-09551-0" target="_blank" rel="noopener">https://doi.org/10.1007/s12310-022-09551-0</a></li>
+          <li>Berger, E., Quinones, G., Barnes, M., &amp; Reupert, A. (2022). Early childhood teachers’ psychological distress and wellbeing during the COVID-19 pandemic. <em>Early Childhood Research Quarterly</em>, <em>60</em>, 298–306. <a href="https://doi.org/10.1016/j.ecresq.2022.03.005" target="_blank" rel="noopener">https://doi.org/10.1016/j.ecresq.2022.03.005</a></li>
+          <li>Berger, P. L., &amp; Luckmann, T. (1966). <em>The social construction of reality: A treatise in the sociology of knowledge</em>. Anchor Books.</li>
+          <li>Bourdieu, P. (1986). The forms of capital. In J. G. Richardson (Ed.), <em>Handbook of theory and research for the sociology of education</em> (pp. 241–258). Greenwood Press.</li>
+          <li>Bronfenbrenner, U. (1979). <em>The ecology of human development: Experiments by nature and design</em>. Harvard University Press.</li>
+          <li>Bronfenbrenner, U., &amp; Morris, P. A. (2007). The bioecological model of human development. In W. Damon &amp; R. M. Lerner (Eds.), <em>Handbook of child psychology: Vol. 1. Theoretical models of human development</em> (6th ed., pp. 793–828). Wiley.</li>
+          <li>Children’s Health Queensland Hospital and Health Service. (2020, May 17). <em>Birdie and the Fire</em> [Video]. YouTube. <a href="https://www.youtube.com/watch?v=N6wHhH8R2JA" target="_blank" rel="noopener">https://www.youtube.com/watch?v=N6wHhH8R2JA</a></li>
+          <li>Children’s Health Queensland Hospital and Health Service. (n.d.). <em>Birdie’s Tree: Natural disaster recovery</em>. Queensland Government. <a href="https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery" target="_blank" rel="noopener">https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery</a></li>
+          <li>de Heer, N., Due, C., Riggs, D. W., &amp; Augoustinos, M. (2016). “It will be hard because I will have to learn lots of English”: Experiences of education for children with migrant backgrounds in Australia. <em>International Journal of Qualitative Studies in Education</em>, <em>29</em>(3), 297–319. <a href="https://doi.org/10.1080/09518398.2015.1023232" target="_blank" rel="noopener">https://doi.org/10.1080/09518398.2015.1023232</a></li>
+          <li>Department for Education South Australia. (2023a). <em>English language support</em>. Government of South Australia. <a href="https://www.sa.gov.au/topics/education-and-learning/international-students/english-language-support" target="_blank" rel="noopener">https://www.sa.gov.au/topics/education-and-learning/international-students/english-language-support</a></li>
+          <li>Department for Education South Australia. (2023b). <em>List of high bushfire risk schools, preschools and kindergartens</em>. Government of South Australia. <a href="https://www.education.sa.gov.au/parents-and-families/safety-and-wellbeing/emergency-management/bushfire-updates-and-service-closures/list-high-bushfire-risk-schools-preschools-and-kindergartens" target="_blank" rel="noopener">https://www.education.sa.gov.au/parents-and-families/safety-and-wellbeing/emergency-management/bushfire-updates-and-service-closures/list-high-bushfire-risk-schools-preschools-and-kindergartens</a></li>
+          <li>Department of Education, Skills and Employment. (2022). <em>Australian Early Development Census national report 2021: Early childhood development in Australia</em>. Australian Government. <a href="https://www.aedc.gov.au/resources/detail/2021-aedc-national-report" target="_blank" rel="noopener">https://www.aedc.gov.au/resources/detail/2021-aedc-national-report</a></li>
+          <li>Department of Home Affairs. (2024). <em>Australia’s Offshore Humanitarian Program: 2023–24</em>. Australian Government. <a href="https://www.homeaffairs.gov.au/research-and-statistics/statistics/visa-statistics/live/humanitarian-program" target="_blank" rel="noopener">https://www.homeaffairs.gov.au/research-and-statistics/statistics/visa-statistics/live/humanitarian-program</a></li>
+          <li>Department of the Premier and Cabinet South Australia. (2023). <em>South Australian Multicultural Charter</em>. Government of South Australia. <a href="https://www.dpc.sa.gov.au/responsibilities/multicultural-affairs/charter" target="_blank" rel="noopener">https://www.dpc.sa.gov.au/responsibilities/multicultural-affairs/charter</a></li>
+          <li>Department of the Premier and Cabinet South Australia. (n.d.). <em>State Emergency Management Plan</em>. Government of South Australia. <a href="https://dpc.sa.gov.au/responsibilities/security-emergency-and-recovery-management/state-emergency-management-plan" target="_blank" rel="noopener">https://dpc.sa.gov.au/responsibilities/security-emergency-and-recovery-management/state-emergency-management-plan</a></li>
+          <li>Due, C., &amp; Riggs, D. W. (2016). Care for children with migrant or refugee backgrounds in the school context. <em>Children Australia</em>, <em>41</em>(3), 190–200. <a href="https://doi.org/10.1017/cha.2016.24" target="_blank" rel="noopener">https://doi.org/10.1017/cha.2016.24</a></li>
+          <li>Emerging Minds. (2022). <em>The impact of natural disasters on babies and young children</em> [Video]. National Workforce Centre for Child Mental Health. <a href="https://emergingminds.com.au/resources/the-impact-of-natural-disasters-on-babies-and-young-children/" target="_blank" rel="noopener">https://emergingminds.com.au/resources/the-impact-of-natural-disasters-on-babies-and-young-children/</a></li>
+          <li>Emerging Minds. (2023). <em>Understanding how disasters influence infants and children &amp; Community Trauma Toolkit for Educators</em>. National Workforce Centre for Child Mental Health. <a href="https://emergingminds.com.au/resources/toolkits/community-trauma-toolkit/educators/" target="_blank" rel="noopener">https://emergingminds.com.au/resources/toolkits/community-trauma-toolkit/educators/</a></li>
+          <li>fka Children’s Services. (n.d.). <em>Cultural inclusion support and Multicultural Resource Centre</em>. <a href="https://fka.org.au/" target="_blank" rel="noopener">https://fka.org.au/</a></li>
+          <li>Fox, M. (1997). <em>Whoever you are</em> (L. Staub, Illus.). Hodder Children’s Books.</li>
+          <li>French, J. (2011). <em>Flood</em> (B. Whatley, Illus.). Scholastic Press.</li>
+          <li>Gibbs, L., Block, K., Harms, L., MacDougall, C., Baker, E., Ireton, G., Forbes, D., Richardson, J., &amp; Waters, E. (2015). Children and young people’s wellbeing post-disaster: Safety and stability are critical. <em>International Journal of Disaster Risk Reduction</em>, <em>14</em>(2), 195–201. <a href="https://doi.org/10.1016/j.ijdrr.2015.06.006" target="_blank" rel="noopener">https://doi.org/10.1016/j.ijdrr.2015.06.006</a></li>
+          <li>Gibbs, L., Nursey, J., Cook, J., Ireton, G., Alkemade, N., Roberts, M., Gallagher, H. C., Bryant, R., Block, K., Molyneaux, R., &amp; Forbes, D. (2019). Delayed disaster impacts on academic performance of primary school children. <em>Child Development</em>, <em>90</em>(4), 1402–1412. <a href="https://doi.org/10.1111/cdev.13200" target="_blank" rel="noopener">https://doi.org/10.1111/cdev.13200</a></li>
+          <li>Government of South Australia. (2023). <em>River Murray flood recovery</em>. Recovery SA. <a href="https://recovery.sa.gov.au/active-recoveries/river-murray-flood" target="_blank" rel="noopener">https://recovery.sa.gov.au/active-recoveries/river-murray-flood</a></li>
+          <li>James, A., &amp; Prout, A. (Eds.). (1997). <em>Constructing and reconstructing childhood: Contemporary issues in the sociological study of childhood</em> (2nd ed.). Falmer Press.</li>
+          <li>Kobald, I. (2014). <em>My two blankets</em> (F. Blackwood, Illus.). Little Hare Books.</li>
+          <li>Lamb, C. S. (2020). Constructing early childhood services as culturally credible trauma-recovery environments: Participatory barriers and enablers for refugee families. <em>European Early Childhood Education Research Journal</em>, <em>28</em>(1), 129–148. <a href="https://doi.org/10.1080/1350293X.2020.1707368" target="_blank" rel="noopener">https://doi.org/10.1080/1350293X.2020.1707368</a></li>
+          <li>Marinkovic Chavez, K., Quinn, P., Gibbs, L., Block, K., Leppold, C., Stanley, J., &amp; Vella-Brodrick, D. (2024). Growing up in Victoria, Australia, in the midst of the climate emergency. <em>International Journal of Behavioral Development</em>, <em>48</em>(2), 125–131. <a href="https://doi.org/10.1177/01650254231205239" target="_blank" rel="noopener">https://doi.org/10.1177/01650254231205239</a></li>
+          <li>Masten, A. S. (2001). Ordinary magic: Resilience processes in development. <em>American Psychologist</em>, <em>56</em>(3), 227–238. <a href="https://doi.org/10.1037/0003-066X.56.3.227" target="_blank" rel="noopener">https://doi.org/10.1037/0003-066X.56.3.227</a></li>
+          <li>Masten, A. S. (2014). <em>Ordinary magic: Resilience in development</em>. Guilford Press.</li>
+          <li>McInnes, E., Whitington, V., Neill, B., &amp; Farndale, A. (2024). Professional learning supporting multilingual children’s social and emotional development in diverse Australian early childhood education and care settings. <em>Early Childhood Education Journal</em>, <em>53</em>(3), 779–790. <a href="https://doi.org/10.1007/s10643-023-01620-6" target="_blank" rel="noopener">https://doi.org/10.1007/s10643-023-01620-6</a></li>
+          <li>Murray, A. (2016). <em>Birdie and the fire</em> (A. Tortop, Illus.). Queensland Centre for Perinatal and Infant Mental Health, Children’s Health Queensland Hospital and Health Service. <a href="https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery/birdies-tree-storybooks" target="_blank" rel="noopener">https://www.childrens.health.qld.gov.au/our-work/birdies-tree-natural-disaster-recovery/birdies-tree-storybooks</a></li>
+          <li>National Emergency Management Agency. (2023). <em>National Disaster Mental Health and Wellbeing Framework</em>. Australian Government. <a href="https://www.nema.gov.au" target="_blank" rel="noopener">https://www.nema.gov.au</a></li>
+          <li>Putnam, R. D. (2000). <em>Bowling alone: The collapse and revival of American community</em>. Simon &amp; Schuster.</li>
+          <li>Raising Children Network. (n.d.). <em>Translated resources: Languages other than English</em>. <a href="https://raisingchildren.net.au/guides/translated-resources" target="_blank" rel="noopener">https://raisingchildren.net.au/guides/translated-resources</a></li>
+          <li>Royal Commission into National Natural Disaster Arrangements. (2020). <em>Royal Commission into National Natural Disaster Arrangements: Report</em>. Commonwealth of Australia. <a href="https://www.royalcommission.gov.au/sites/default/files/2020-11/Royal%20Commission%20into%20National%20Natural%20Disaster%20Arrangements%20-%20Report.pdf" target="_blank" rel="noopener">https://www.royalcommission.gov.au/sites/default/files/2020-11/Royal%20Commission%20into%20National%20Natural%20Disaster%20Arrangements%20-%20Report.pdf</a></li>
+          <li>Royal Far West &amp; UNICEF Australia. (2021). <em>After the disaster: Recovery for Australia’s children</em>. <a href="https://www.royalfarwest.org.au/wp-content/uploads/2021/03/After-the-Disaster-Recovery-for-Australias-Children-produced-by-Royal-Far-West-UNICEF-Australia.pdf" target="_blank" rel="noopener">https://www.royalfarwest.org.au/wp-content/uploads/2021/03/After-the-Disaster-Recovery-for-Australias-Children-produced-by-Royal-Far-West-UNICEF-Australia.pdf</a></li>
+          <li>Survivors of Torture and Trauma Assistance and Rehabilitation Service. (n.d.). <em>Child and youth program &amp; training services</em>. <a href="https://www.sttars.org.au/" target="_blank" rel="noopener">https://www.sttars.org.au/</a></li>
+          <li>Ungar, M. (2011). The social ecology of resilience: Addressing contextual and cultural ambiguity of a nascent construct. <em>American Journal of Orthopsychiatry</em>, <em>81</em>(1), 1–17. <a href="https://doi.org/10.1111/j.1939-0025.2010.01067.x" target="_blank" rel="noopener">https://doi.org/10.1111/j.1939-0025.2010.01067.x</a></li>
+        </ul>
+      </article>
+
+      <article class="section-block">
+        <h2 style="margin-bottom: 0.75rem;">Transparent Generative AI Bibliography &amp; Acknowledgement</h2>
+        <p>
+          <strong>AI-Use Acknowledgement:</strong> Generative AI (Google DeepMind Antigravity / Gemini) was used to assist with research discovery, structuring the portfolio sections, and coding the HTML/CSS layout. Every statistical figure, policy document, academic DOI, organisation link, and children’s resource was independently verified against official Australian government and publisher sources prior to inclusion.
+        </p>
+        <ul class="apa-list">
+          <li>Google. (2026). <em>Gemini</em> (Nov 20, 2026 version) [Large language model]. <a href="https://gemini.google.com/" target="_blank" rel="noopener">https://gemini.google.com/</a> — Used for multi-agent source discovery, academic structure drafting (~1,000 words per context), and semantic HTML/CSS implementation.</li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>EPRO204 Assessment 3 – Professional Digital Portfolio</strong>
+        <p style="margin-top: 0.35rem; max-width: 680px; opacity: 0.9;">
+          We acknowledge the Traditional Custodians of Country throughout Australia, including the Kaurna People of the Adelaide Plains, and pay our respects to Elders past and present.
+        </p>
+      </div>
+      <div>
+        <p>APA 7th Edition Verified • Birth to 5 Years Focus</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function showPage(pageId, updateHash) {
+      var pages = document.querySelectorAll('.page-view');
+      for (var i = 0; i < pages.length; i++) {
+        pages[i].classList.remove('active');
+      }
+      var target = document.getElementById('page-' + pageId);
+      if (target) {
+        target.classList.add('active');
+      }
+
+      var buttons = document.querySelectorAll('.nav-btn');
+      for (var j = 0; j < buttons.length; j++) {
+        buttons[j].classList.remove('active');
+      }
+      var activeBtn = document.getElementById('nav-' + pageId);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+      if (updateHash !== false) {
+        history.pushState(null, '', '#' + pageId);
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function initFromHash() {
+      var hash = window.location.hash.replace('#', '');
+      var validPages = ['home', 'context-1', 'context-2', 'library', 'references'];
+      if (validPages.indexOf(hash) !== -1) {
+        showPage(hash, false);
+      }
+    }
+
+    window.addEventListener('hashchange', initFromHash);
+    window.addEventListener('DOMContentLoaded', initFromHash);
+
+    function filterLibrary(groupId, btn) {
+      var groups = document.querySelectorAll('.lib-group');
+      for (var i = 0; i < groups.length; i++) {
+        if (groupId === 'all' || groups[i].id === groupId) {
+          groups[i].style.display = 'block';
+        } else {
+          groups[i].style.display = 'none';
+        }
+      }
+      var btns = document.querySelectorAll('.filter-btn');
+      for (var j = 0; j < btns.length; j++) {
+        btns[j].classList.remove('active');
+      }
+      if (btn) {
+        btn.classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>

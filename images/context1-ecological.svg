@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" fill="none">
+  <rect width="800" height="460" rx="22" fill="#FAF7F2" stroke="#E6DDD0" stroke-width="3"/>
+  <text x="400" y="42" text-anchor="middle" fill="#1E3F2D" font-family="Georgia, serif" font-size="20" font-weight="bold">
+    Bioecological Systems &amp; Cultural Capital Model for Immigrant and Refugee Children
+  </text>
+
+  <!-- Concentric Ecological Rings -->
+  <ellipse cx="400" cy="255" rx="345" ry="175" fill="#F2ECE1" stroke="#7D9B84" stroke-width="2" stroke-dasharray="6 4"/>
+  <ellipse cx="400" cy="255" rx="265" ry="135" fill="#EAF0EB" stroke="#7D9B84" stroke-width="2"/>
+  <ellipse cx="400" cy="255" rx="185" ry="95" fill="#F7E3DC" stroke="#C86D51" stroke-width="2"/>
+  <ellipse cx="400" cy="255" rx="105" ry="55" fill="#1E3F2D"/>
+
+  <!-- Labels for Rings -->
+  <text x="400" y="102" text-anchor="middle" fill="#1F2421" font-family="Georgia, serif" font-size="14" font-weight="bold">
+    MACROSYSTEM &amp; CHRONOSYSTEM: Migration Policy, SA Multicultural Charter (2023), Pre-Migration Displacement
+  </text>
+  <text x="400" y="142" text-anchor="middle" fill="#1E3F2D" font-family="Georgia, serif" font-size="14" font-weight="bold">
+    EXOSYSTEM: AMRC Settlement Support, STTARS Trauma Counselling, Inclusion Support Program (ISP)
+  </text>
+  <text x="400" y="182" text-anchor="middle" fill="#8F432C" font-family="Georgia, serif" font-size="14" font-weight="bold">
+    MESOSYSTEM: Bilingual Support Workers, Translated Resources, Culturally Safe Family Partnerships (NQS QA6)
+  </text>
+  <text x="400" y="250" text-anchor="middle" fill="#FAF7F2" font-family="Georgia, serif" font-size="15" font-weight="bold">
+    CHILD (0–5 YRS)
+  </text>
+  <text x="400" y="272" text-anchor="middle" fill="#D8E8DD" font-family="sans-serif" font-size="12">
+    Home &amp; ECEC Microsystem
+  </text>
+
+  <!-- Bottom Bourdieu & Social Constructionism Callouts -->
+  <rect x="70" y="385" width="310" height="48" rx="10" fill="#1E3F2D"/>
+  <text x="225" y="414" text-anchor="middle" fill="#FAF7F2" font-family="sans-serif" font-size="13" font-weight="bold">
+    Bourdieu (1986): Home Language as Capital
+  </text>
+  <rect x="420" y="385" width="310" height="48" rx="10" fill="#C86D51"/>
+  <text x="575" y="414" text-anchor="middle" fill="#FAF7F2" font-family="sans-serif" font-size="13" font-weight="bold">
+    James &amp; Prout (1997): Child as Active Agent
+  </text>
+</svg>

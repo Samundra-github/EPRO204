@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" fill="none">
+  <rect width="800" height="460" rx="22" fill="#FAF7F2" stroke="#D8E8DD" stroke-width="3"/>
+  <text x="400" y="45" text-anchor="middle" fill="#1E3F2D" font-family="Georgia, serif" font-size="20" font-weight="bold">
+    Social Capital (Aldrich, 2012; Putnam, 2000) &amp; Socio-Ecological Resilience (Masten, 2014)
+  </text>
+
+  <!-- Central Node: Early Childhood Service as Community Recovery Hub -->
+  <rect x="250" y="185" width="300" height="95" rx="20" fill="#1E3F2D"/>
+  <text x="400" y="225" text-anchor="middle" fill="#FAF7F2" font-family="Georgia, serif" font-size="18" font-weight="bold">
+    ECEC Service as Recovery Hub
+  </text>
+  <text x="400" y="252" text-anchor="middle" fill="#D8E8DD" font-family="sans-serif" font-size="13">
+    Predictable Microsystem • Co-Regulation • Safe Base
+  </text>
+
+  <!-- Top Left: Bonding Social Capital -->
+  <rect x="50" y="75" width="230" height="85" rx="14" fill="#F7E3DC" stroke="#C86D51" stroke-width="2"/>
+  <text x="165" y="105" text-anchor="middle" fill="#8F432C" font-family="Georgia, serif" font-size="15" font-weight="bold">Bonding Social Capital</text>
+  <text x="165" y="128" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Parent-Child Attachment &amp; Kin</text>
+  <text x="165" y="146" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Key Educator Primary Care</text>
+
+  <!-- Top Right: Bridging Social Capital -->
+  <rect x="520" y="75" width="230" height="85" rx="14" fill="#EAF0EB" stroke="#7D9B84" stroke-width="2"/>
+  <text x="635" y="105" text-anchor="middle" fill="#1E3F2D" font-family="Georgia, serif" font-size="15" font-weight="bold">Bridging Social Capital</text>
+  <text x="635" y="128" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Peer Playgroups &amp; Community Cuppas</text>
+  <text x="635" y="146" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Shared Neighbourhood Solidarity</text>
+
+  <!-- Bottom Left: Linking Social Capital -->
+  <rect x="50" y="310" width="230" height="90" rx="14" fill="#F2ECE1" stroke="#1E3F2D" stroke-width="2"/>
+  <text x="165" y="340" text-anchor="middle" fill="#1E3F2D" font-family="Georgia, serif" font-size="15" font-weight="bold">Linking Social Capital</text>
+  <text x="165" y="363" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">CCS Emergency Fee Waivers</text>
+  <text x="165" y="381" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Emerging Minds, Red Cross &amp; Recovery SA</text>
+
+  <!-- Bottom Right: Masten & Ungar Resilience Theory -->
+  <rect x="520" y="310" width="230" height="90" rx="14" fill="#FCF4F1" stroke="#C86D51" stroke-width="2"/>
+  <text x="635" y="340" text-anchor="middle" fill="#8F432C" font-family="Georgia, serif" font-size="15" font-weight="bold">"Ordinary Magic" Resilience</text>
+  <text x="635" y="363" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Masten (2014) &amp; Ungar (2011)</text>
+  <text x="635" y="381" text-anchor="middle" fill="#353C37" font-family="sans-serif" font-size="12">Everyday Protective Systems Buffer Trauma</text>
+
+  <!-- Connecting lines -->
+  <line x1="280" y1="135" x2="320" y2="185" stroke="#C86D51" stroke-width="2.5"/>
+  <line x1="520" y1="135" x2="480" y2="185" stroke="#7D9B84" stroke-width="2.5"/>
+  <line x1="280" y1="330" x2="320" y2="280" stroke="#1E3F2D" stroke-width="2.5"/>
+  <line x1="520" y1="330" x2="480" y2="280" stroke="#C86D51" stroke-width="2.5"/>
+</svg>
